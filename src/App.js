@@ -19,6 +19,7 @@ function App() {
         `
       );
     }, 1000);
+    
     return () => clearTimeout(timeout);
   }, [html, css, js]);
 
